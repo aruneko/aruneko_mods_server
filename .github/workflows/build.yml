@@ -21,7 +21,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - name: Setup zip command
-        run: apt update && apt install -y zip
+        run: sudo apt update && sudo apt install -y zip
       - name: Download packwiz installer
         run: curl -L https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar -o packwiz-installer-bootstrap.jar
       - name: Fetch mods
