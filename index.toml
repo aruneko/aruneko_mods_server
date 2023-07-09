@@ -31,11 +31,6 @@ hash = "d12f388b9fd51c4844f254c9972d8165684ad0b8c2e4b3cb4c77e3ece3e688b6"
 metafile = true
 
 [[files]]
-file = "mods/neat.pw.toml"
-hash = "705a6751200d38054d77546f18edc6feba0e30b8fc2095db3af1838d88fb0405"
-metafile = true
-
-[[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "c11383850b91d4d2713c3c0cd4b2b31a467d2d9fa09cb66e0ce2a1315df1dce8"
 metafile = true
@@ -43,14 +38,4 @@ metafile = true
 [[files]]
 file = "mods/wthit.pw.toml"
 hash = "3f9eb51665a406cce6da1542cb36a75b7c4787d9127dc66de13999c25f7b84e9"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.pw.toml"
-hash = "a58a4fc67d15233948364416881796b9cba8b2ffa1fe368b1219ba482d133f42"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "7bbcc05b5c07d5a4af12f4be0c89698ce865c57abfbed94bbede619dc12c3692"
 metafile = true

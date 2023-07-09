@@ -1,12 +1,12 @@
 name = "aruneko_mods_server"
 author = "Aruneko"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3be7e9fb0f5f0bd019946ab29cf1b8c9a8dbde19d4afb2e2fe726c255dee043f"
+hash = "f6280ef16cfc7f7f0a859f2c21ab4346ee8214bfbfffe6c25a12cb27dc32e189"
 
 [versions]
 forge = "47.1.0"
