@@ -1,0 +1,33 @@
+name: build mod pack
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: get tag name
+        run: echo "TAG_NAME=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: Setup JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Setup zip command
+        run: apt update && apt install -y zip
+      - name: Download packwiz installer
+        run: curl -L https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar -o packwiz-installer-bootstrap.jar
+      - name: Fetch mods
+        run: java -jar packwiz-installer-bootstrap.jar -g https://raw.githubusercontent.com/aruneko/aruneko_mods_server/main/pack.toml
+      - name: Make zip
+        run: zip -r aruneko_mods_server_${{ env.TAG_NAME }}.zip mods -x "*.toml"
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: aruneko_mods_server_${{ env.TAG_NAME }}.zip
