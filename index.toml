@@ -12,12 +12,17 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "025da4de5afb38783abfd750b1152b02b3bf5bdbaa7af067eb1ea36e5797e93a"
+hash = "2625fcc32033b469f4d5ef86f4055d7e417768ff829e12c8ee370c58ca9205ce"
 metafile = true
 
 [[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "4da758690c2a7ac4d0e17283203d0b1bac670edfaf42f1863cd624941d3a0145"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "f13d3b44b9c97417f85e68620b14e080d46756713b90ee1a023d6f02b41c053b"
 metafile = true
 
 [[files]]
@@ -27,12 +32,22 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d12f388b9fd51c4844f254c9972d8165684ad0b8c2e4b3cb4c77e3ece3e688b6"
+hash = "3de2843a7072f8e7308ba53b1ac2b3f1a38312d4acf69d5cf116c9ac684f3778"
 metafile = true
 
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "c11383850b91d4d2713c3c0cd4b2b31a467d2d9fa09cb66e0ce2a1315df1dce8"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers.pw.toml"
+hash = "592910d12bfb5966d1c142b2ba219e6b79a09f96e3c06a4cef3d93645d1ec3f7"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "64e997e04b19eedebde864ff21db921c36998fe20e7a935b9536ad15d4c9d5ad"
 metafile = true
 
 [[files]]
