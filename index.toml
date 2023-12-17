@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "845f5da2a11ed1f90377ea66a35a4fb17c7e1f058d4144295784e05046a80c75"
+hash = "c464b21ac8baf5ed1d22a0c4bacfcf24977e04dc938add65a2a93bcaf704c22e"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "2625fcc32033b469f4d5ef86f4055d7e417768ff829e12c8ee370c58ca9205ce"
+hash = "d716522fe0f486fa2d0dcfe2ba4d55a3d28c5f3f043cfcdf0cb90add23c45ac6"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-sorter.pw.toml"
-hash = "2dd9b6281eafb4bbc2fde3ef86d2967dc421e34052d27d8c9e0b52ef6186b62d"
+hash = "537f95eb95c08a7510b7151d2960904d2fae3ccd515a5f369063c11f707584fb"
 metafile = true
 
 [[files]]
