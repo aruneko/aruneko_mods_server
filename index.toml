@@ -6,8 +6,18 @@ hash = "9bcb3389e104fbc89005b26c7f54062fb50d73bc7f87c79429ed2b557c223b46"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "af68133e1ff9f51bb388aeaee10398814b7572f8506698dc6c1366a57b092dda"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "845f5da2a11ed1f90377ea66a35a4fb17c7e1f058d4144295784e05046a80c75"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "489769f9b1bf1600d8eec7b8e08b27b66ecef1daeb3b4ddd44c0b6d14e5c5670"
 metafile = true
 
 [[files]]
@@ -33,6 +43,26 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "3de2843a7072f8e7308ba53b1ac2b3f1a38312d4acf69d5cf116c9ac684f3778"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "02804388e87b303cab66f88ba3a8a75852970e92f62cc5caa237030aec37bbf2"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-tools.pw.toml"
+hash = "090e8efb9d04a89281e4a646f4d280b07e9fed11a7b184a209899ee3301a7322"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "d5398c3eabe6d44bc7b98d0ad6ca930aa53736567ccd2773d4d9efe28a8099fd"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "b6a800b84316b5d244794c7d6e3ee932502fadc73fe86295267e3f4028da822b"
 metafile = true
 
 [[files]]
